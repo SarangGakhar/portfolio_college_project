@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@1,200&family=Edu+SA+Beginner&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+
+    margin:0;
+    padding:0;
+
+}
+.sidebar{
+     /* position: absolute;  */
+    transition:transform 0.3s ease-in;
+
+    background-color: rgb(241, 95, 119);
+
+
+    /* width:15%; */
+    width:434px;
+
+    /* width:20vw; */
+    font-family: 'Albert Sans', sans-serif;
+    height:100vh;
+}
+
+.sidebargo{
+    position:absolute;
+    transition:transform 0.3s ease-in;
+    transform:translate(-443px,0px);
+    
+     
+    
+}
+
+.sidebar nav {
+    padding: 45px;
+
+    
+    
+}
+
+.sidebar nav li {
+   list-style: none; 
+   font-size: 30px;
+    /* padding-top: 10px;
+   padding-bottom: 10px;  */
+
+   padding:33px 0;
+}
+
+.sidebar nav li a{
+    font-weight: bold;
+    text-decoration:none;
+    color:black;
+    border-radius:20px;
+    background-color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: cadetblue;
+ }
+
+.main{
+    background-color:bisque; 
+    width:90vw;
+    padding:23px;
+   
+
+    /* width:85%; */
+
+}
+
+.container{
+
+    display:flex;
+
+}
+
+ .infocontainer{
+    
+     /* background-color:rgb(101, 98, 96);  */
+    height:50vh;
+     width:80vw; 
+    margin:144px auto;
+    display:flex;
+    justify-content:space-around;
+
+} 
+
+.devinfo{
+    font-size: 16px;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    
+
+}
+
+.devpic img{
+
+height:50vh;
+   
+}
+
+.hello{
+    margin-left:10px;
+    font-family: 'Albert Sans', sans-serif;
+    font-size:3em;
+    
+}
+.name{
+    margin-left:10px;
+    font-family: 'Albert Sans', sans-serif;
+    font-size:3em;
+    font-weight: bold;
+}
+.about{
+    margin-left:10px;
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 2.5em;
+
+}
+.moreabout{
+    margin-left:10px;
+    font-size:2em;
+    font-family: 'Albert Sans', sans-serif;
+
+}
+
+.buttons button{
+    margin-left: 10px;
+    margin-top:20px;
+    font-size: 20px;
+    padding:0 5% 0 5%;
+    border-radius: 30px;
+    cursor:pointer;
+}
+
+.buttons button:hover{
+    background-color:rgb(202, 98, 98);
+
+}
+
+/* css for contact form */
+.contactform{
+    /* font-family: 'Lato', sans-serif;
+    font-weight: inherit;
+    padding-top: 100px;
+    padding-left: 30px; */
+
+
+    height:50vh;
+     width:80vw; 
+    margin:144px auto;
+    
+    justify-content:space-around;
+    
+}
+.contactform div{
+    padding:10px 10px;
+    font-size:large;
+}
+
+
+.contactform h1{
+    font-family: 'Albert Sans', sans-serif;
+    text-align: center;
+    background-color:darkgray
+
+}
+
+ .non-check input {
+   width:40%;
+   
+   border-radius:15px;
+}
+::placeholder{
+   text-align: center;
+}
+
+.btn submit{
+
+border-radius: 10%;
+
+}
+
+.blogcontainer h1{
+
+    font-family: 'Albert Sans', sans-serif;
+   
+    margin:30px;
+    background-color: cadetblue;
+
+/* 
+    height:50vh;
+     width:80vw; 
+    margin:144px auto;
+    
+    justify-content:space-around; */
+
+}
+
+.blogitem{
+    /* display: flex; */
+    font-family: 'Albert Sans', sans-serif;
+    margin:10px;
+    margin-left: 20px;
+    
+
+}
+
+.intro {
+
+    /* margin: 30px; */
+
+    height:50vh;
+     width:80vw; 
+    margin:100px auto;
+    
+    justify-content:space-around;
+    
+}
+
+.intro h1{
+    margin-bottom: 30px;
+    background-color: cadetblue;
+}
+.intro h2{
+    margin-top:20px;
+    margin-bottom:20px;
+    background-color:cadetblue;
+}
+
+.skillcontainer{
+    font-size: 150%;
+    
+}
+
+.html5 {
+    background-color: rgb(69, 81, 81);
+    border-radius: 20px;
+    width:80%;
+    height:20px;
+
+}
+
+.css{
+    width:50%;
+    height:20px;
+    background-color: rgb(69, 81, 81);
+    border-radius: 20px;
+}
+
+.js{
+    width:40%;
+    height:20px;
+    background-color: rgb(69, 81, 81);
+    border-radius: 20px;
+    
+}
+
+
+.cpp{
+    width:40%;
+    height:20px;
+    background-color: rgb(69, 81, 81);
+    border-radius: 20px;
+    
+}
+
+.dsa{
+    width:40%;
+    height:20px;
+    background-color: rgb(69, 81, 81);
+    border-radius: 20px;
+    
+}
+
+
+.hamburger{
+
+    /* display:none; */
+    
+position:absolute;
+cursor: pointer;
+top: 10px;
+left: 10px;
+}
+
+.cross{
+    margin-left: 200px;
+}
+
+.hidden{
+    display:none;
+}
+
+
+.info_services{
+    height:50vh;
+    width:80vw; 
+   margin:144px auto;
+   
+   justify-content:space-around;
+}
+
+.p1{
+    display:flex;
+    
+    
+}
+
+.p2{
+    display:flex
+}
+
+
+#tit{
+    margin-top: 20px;
+}
+
+
+/* @media (max-width:794px) {
+    .sidebar{
+        transform:translate(-443px,0px);
+        position:absolute;
+    } 
+
+    .devpic{
+        display:none; 
+      
+    }
+    .main{
+       width:100vw;
+        height:100vh;
+        
+    }
+    .intro,.blogcontainer,.contactform{
+        margin:50px 8px;
+    }
+    .contactform{
+        padding:0;
+    }
+
+    .main{
+        background-color:bisque; 
+
+    }
+    
+
+    .devinfo{
+        font-size: 10px;
+    }
+    
+} */
+
+
+
+
+
+
+
+
+
+
